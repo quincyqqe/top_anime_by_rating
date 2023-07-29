@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-url = 'https://animestars.org/topanime.html'
+url = 'https://animestars.org/topanime.html' # ссылка на наш сайт
 
 
 response = requests.get(url)
